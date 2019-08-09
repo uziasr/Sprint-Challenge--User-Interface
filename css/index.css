@@ -222,8 +222,9 @@ div.boxes{
 div.about-section{
     display:flex;
     flex-direction: column;
-    border-bottom: 1px dashed black;
     padding-bottom: 2%;
+    width:98%;
+    margin: 0 auto 0 auto;
     
 }
 
@@ -231,8 +232,10 @@ div.about-section{
 div.box-wrapper{
     display:flex;
     justify-content: space-between; 
-    margin:3% auto 0 auto;
+    margin: 0 auto 0 auto;
     flex-wrap: wrap;
+    padding-top: 4%;
+    border-top: 1px dashed black;
 }
 div.about-box{
     display:flex;
@@ -243,7 +246,7 @@ div.about-box{
     width:45%;
     border-bottom: 1px dashed black;
     padding-bottom: 3%;
-    margin: 0 0 9% 0;
+    margin: 0 0 6% 0;
 
 }
 div.about-box a{
@@ -260,4 +263,12 @@ div.about-box a{
 }
 div.about-box h2{
     margin-top:4%;
+}
+
+/* let's work together */
+
+div.together-section{
+    width:98%;
+    margin: 0 auto 4% auto;
+
 }
