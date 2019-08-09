@@ -217,3 +217,26 @@ div.boxes{
 .box10{
     background-color:dodgerblue;
 }
+
+/* about page */
+div.box-wrapper{
+    display:flex;
+    justify-content: space-between; 
+    margin:0 auto 0 auto;
+    flex-wrap: wrap;
+}
+div.about-box{
+    display:flex;
+    flex-direction: column;
+    width:45%;
+    border-bottom: 1px dashed black;
+    margin: 0 0 6% 0;
+
+}
+div.about-box a{
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding:2%;
+}
